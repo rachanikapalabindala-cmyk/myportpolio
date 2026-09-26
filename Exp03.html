@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CampusConnect - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+
+  <div class="navbar">
+    <div>
+      <strong>CampusConnect</strong>
+    </div>
+
+
+<div>
+  Home | Events | Clubs
+</div>
+
+
+  </div>
+
+  <!-- Main Content -->
+
+  <div class="grid">
+
+<!-- CampusConnect Card -->
+<div class="card">
+  <h1>CampusConnect</h1>
+  <p>
+    Discover and register for every club event on campus.
+  </p>
+</div>
+
+<!-- Upcoming Events -->
+<div class="card">
+  <h3>Upcoming Events</h3>
+
+  <ul>
+    <li>Hackathon 2026 - Sept 20</li>
+    <li>Robotics Workshop - Sept 25</li>
+    <li>Cultural Fest - Oct 5</li>
+  </ul>
+</div>
+
+<!-- Contact Card -->
+<div class="card">
+
+  <h3>Contact Us</h3>
+
+  <!-- Button used by JavaScript -->
+  <button id="contactBtn">
+    Contact Us
+  </button>
+
+  <!-- Contact Form -->
+  <form id="contactForm" style="display: none; margin-top: 15px;">
+
+    <label for="name">Name:</label>
+    <br>
+
+    <input 
+      type="text" 
+      id="name" 
+      name="name"
+      placeholder="Enter your name"
+      required
+    >
+
+    <br><br>
+
+    <label for="email">Email:</label>
+    <br>
+
+    <input 
+      type="email" 
+      id="email" 
+      name="email"
+      placeholder="Enter your email"
+      required
+    >
+
+    <br><br>
+
+    <label for="message">Message:</label>
+    <br>
+
+    <textarea 
+      id="message" 
+      name="message"
+      placeholder="Enter your message"
+      rows="4"
+      required
+    ></textarea>
+
+    <br><br>
+
+    <button type="submit">
+      Submit
+    </button>
+
+  </form>
+
+</div>
+```
+
+  </div>
+
+  <!-- JavaScript -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>

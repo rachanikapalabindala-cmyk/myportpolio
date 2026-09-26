@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f4f6f8; }
+ 
+.navbar { display: flex; justify-content: space-between; align-items: center;
+  background: #1e3a5f; color: white; padding: 12px 24px; }
+ 
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; padding: 24px; }
+ 
+.card { background: white; border-radius: 8px; padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+ 
+.card h3 { margin-top: 0; color: #1e3a5f; }
